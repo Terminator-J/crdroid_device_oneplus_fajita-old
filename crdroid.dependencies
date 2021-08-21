@@ -1,0 +1,14 @@
+[
+  {
+    "remote": "crdroid",
+    "repository": "crdroidandroid/android_device_oneplus_sdm845-common",
+    "target_path": "device/oneplus/sdm845-common",
+    "branch": "11.0"
+  },
+  {
+    "remote": "crdroid",
+    "repository": "crdroidandroid/android_device_oneplus_enchilada",
+    "target_path": "device/oneplus/enchilada",
+    "branch": "11.0"
+  }
+]
