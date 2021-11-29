@@ -30,5 +30,8 @@ SOONG_CONFIG_ONEPLUS_FOD_POS_Y := 1966
 SOONG_CONFIG_ONEPLUS_FOD_SIZE := 190
 TARGET_SURFACEFLINGER_FOD_LIB := //hardware/oneplus:libfod_extension.oneplus
 
+# Prebuilt recovery ramdisk
+-include device/oneplus/fajita/recovery/prebuilt_recovery.mk
+
 # inherit from the proprietary version
 -include vendor/oneplus/fajita/BoardConfigVendor.mk
