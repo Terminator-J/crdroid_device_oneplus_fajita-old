@@ -34,5 +34,8 @@ TARGET_SURFACEFLINGER_FOD_LIB := //hardware/oneplus:libfod_extension.oneplus
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_fajita
 TARGET_RECOVERY_DEVICE_MODULES := init_fajita
 
+# Properties
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+
 # inherit from the proprietary version
 -include vendor/oneplus/fajita/BoardConfigVendor.mk
