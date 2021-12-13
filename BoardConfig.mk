@@ -30,11 +30,15 @@ SOONG_CONFIG_ONEPLUS_FOD_POS_Y := 1966
 SOONG_CONFIG_ONEPLUS_FOD_SIZE := 190
 TARGET_SURFACEFLINGER_FOD_LIB := //hardware/oneplus:libfod_extension.oneplus
 
+# HIDL
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
+
 # Init
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_fajita
 TARGET_RECOVERY_DEVICE_MODULES := init_fajita
 
 # Properties
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # inherit from the proprietary version

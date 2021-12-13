@@ -39,7 +39,6 @@ TARGET_SCREEN_WIDTH := 1080
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.1-service.oneplus \
     vendor.lineage.biometrics.fingerprint.inscreen@1.0-service.oneplus
 
 # FOD
