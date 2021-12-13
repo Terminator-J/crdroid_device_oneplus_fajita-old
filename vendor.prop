@@ -1,1 +1,4 @@
 # Insert fajita-specific vendor properties here
+
+# Crypto
+ro.hardware.keystore_desede=true

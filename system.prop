@@ -1,0 +1,4 @@
+# Insert fajita-specific system properties here
+
+## Bluetooth
+net.bt.name=OnePlus6T
