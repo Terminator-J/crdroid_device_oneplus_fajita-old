@@ -14,7 +14,7 @@ static const variant_info_t fajita_info = {
     .device = "fajita",
     .name = "OnePlus6T",
     .model = "ONEPLUS A6013",
-    .build_fingerprint = "OnePlus/OnePlus6T/OnePlus6T:9/PKQ1.180716.001/1812260627:user/release-keys",
+    .build_fingerprint = "OnePlus/OnePlus6T/OnePlus6T:11/RKQ1.201217.002/2111252327:user/release-keys",
 };
 
 void vendor_load_properties() {
